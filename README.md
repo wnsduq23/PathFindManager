@@ -36,7 +36,7 @@
 
 - 한 단계씩 길찾기
 
-()
+![Image](https://github.com/user-attachments/assets/ee911288-d9a7-4746-8361-0366bbf32a59)
 
 | 입력 (Key/Mouse) | 동작 | 관련 메서드/설명 |
 | --- | --- | --- |
