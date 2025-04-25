@@ -30,7 +30,13 @@
 
 ## 주요 기능 설명
 
+- 자동 길찾기
+
 ![Image](https://github.com/user-attachments/assets/8a124065-69f0-4c32-b0b2-79226fc78006)
+
+- 한 단계씩 길찾기
+
+()
 
 | 입력 (Key/Mouse) | 동작 | 관련 메서드/설명 |
 | --- | --- | --- |
