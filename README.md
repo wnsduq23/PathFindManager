@@ -40,24 +40,24 @@
 
 | 입력 (Key/Mouse) | 동작 | 관련 메서드/설명 |
 | --- | --- | --- |
-| ↑, ↓, ←, → | 뷰 이동 | `MapTool::MoveUp/MoveDown/MoveLeft/MoveRight` MapManager |
-| 마우스 휠 | 그리드 크기(배율) 조절 | `MapTool::SetScale` PathFindManager |
-| 3 + 좌클릭 | 출발지 지정 | `MapTool::SetMap` (START) MapManager |
-| 4 + 좌클릭 | 목적지 지정 | `MapTool::SetMap` (DEST) MapManager |
-| 좌드래그 | 장애물 그리기 | `MapTool::SetMap` (OBSTACLE) MapManager |
-| 우드래그 | 장애물 제거 | `MapTool::SetMap` (Erase) MapManager |
-| 5 | 랜덤 장애물 배치 | `MapTool::SetRandomObstacles` MapManager |
-| 6 | 모든 장애물 제거 | `MapTool::ClearObstacles` MapManager |
-| 7 | 맵 전체를 장애물로 채움 | `MapTool::FillObstacles` MapManager |
-| 1 | A* 알고리즘 선택 | `delete g_pPathFindManager; g_pPathFindManager = new AStar;` PathFindManager |
-| 2 | JPS 알고리즘 선택 | `delete g_pPathFindManager; g_pPathFindManager = new JumpPointSearch;` PathFindManager |
+| ↑, ↓, ←, → | 뷰 이동 | `MapTool::MoveUp/MoveDown/MoveLeft/MoveRight`  |
+| 마우스 휠 | 그리드 크기(배율) 조절 | `MapTool::SetScale` |
+| 3 + 좌클릭 | 출발지 지정 | `MapTool::SetMap` (START)  |
+| 4 + 좌클릭 | 목적지 지정 | `MapTool::SetMap` (DEST)  |
+| 좌드래그 | 장애물 그리기 | `MapTool::SetMap` (OBSTACLE)  |
+| 우드래그 | 장애물 제거 | `MapTool::SetMap` (Erase)  |
+| 5 | 랜덤 장애물 배치 | `MapTool::SetRandomObstacles` r |
+| 6 | 모든 장애물 제거 | `MapTool::ClearObstacles`  |
+| 7 | 맵 전체를 장애물로 채움 | `MapTool::FillObstacles`  |
+| 1 | A* 알고리즘 선택 | `delete g_pPathFindManager; g_pPathFindManager = new AStar;`  |
+| 2 | JPS 알고리즘 선택 | `delete g_pPathFindManager; g_pPathFindManager = new JumpPointSearch;`  |
 | Enter | 전체 경로 탐색 | `PathFindAlgorithm::StartFindPath()` |
 | Space | 단계별 경로 탐색 | `PathFindAlgorithm::FindPathStepInto()` |
-| Q / W | 노드 생성 로그 ON/OFF | `PathFindAlgorithm::SetDebugCreateNode(true/false)` PathFindAlgorithm |
-| A / S | 코너 탐지 로그 ON/OFF | `PathFindAlgorithm::SetDebugFindCorner(true/false)` PathFindAlgorithm |
-| Z / X | OpenList 로그 ON/OFF | `PathFindAlgorithm::SetDebugOpenList(true/false)` PathFindAlgorithm |
-| C / V | 경로 보정(코렉트) ON/OFF | `PathFindAlgorithm::SetCorrectPath(true/false)` PathFindAlgorithm |
-| Backspace | 콘솔창 초기화 | `system("cls")` PathFindManager |
+| Q / W | 노드 생성 로그 ON/OFF | `PathFindAlgorithm::SetDebugCreateNode(true/false)`  |
+| A / S | 코너 탐지 로그 ON/OFF | `PathFindAlgorithm::SetDebugFindCorner(true/false)`  |
+| Z / X | OpenList 로그 ON/OFF | `PathFindAlgorithm::SetDebugOpenList(true/false)`  |
+| C / V | 경로 보정(코렉트) ON/OFF | `PathFindAlgorithm::SetCorrectPath(true/false)`  |
+| Backspace | 콘솔창 초기화 | `system("cls")`  |
 
 ---
 
